@@ -1,0 +1,24 @@
+.btn-btn {
+    border-radius: 4px;
+    border: none;
+    color: #F5F5F5;
+    background-color: #B13FE7;
+    height: 26px;
+    margin: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #cc74f5;
+    }
+
+    &-content {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+
+        svg {
+            fill: #F5F5F5;
+        }
+    }
+}

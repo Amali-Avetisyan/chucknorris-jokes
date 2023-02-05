@@ -1,7 +1,9 @@
+import Jokes from "./pages/Jokes";
+
 function App() {
   return (
     <div className="App">
-         <div></div>
+      <Jokes />
     </div>
   );
 }
