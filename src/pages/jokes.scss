@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f8f8f8;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .joke-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100px;
+        background-color: #F1DAFC;
+        border-radius: 14px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        margin-top: 20px;
+    }
+}
